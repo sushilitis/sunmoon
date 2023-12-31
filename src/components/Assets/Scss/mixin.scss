@@ -1,0 +1,8 @@
+@mixin svg-image-full-path($image-name, $width: width, $height: height, $extension: 'svg') {
+    position: relative;
+    $asset-path: "../Icons";
+    content: url(#{$asset-path}/#{$image-name}.#{$extension});
+    width: $width;
+    height: $height;
+    display: block;
+}

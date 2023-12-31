@@ -1,0 +1,31 @@
+.user-name-field {
+  color: #ffffff;
+  padding: 0 5px;
+  font-weight: 400;
+}
+
+.user-name-field .user-name {
+  color: #ff4b2b;
+}
+
+.navbar-menu {
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+}
+
+.navbar-dropdown-menu {
+  cursor: pointer;
+  position: absolute;
+  top: 45px !important;
+  right: 0px;
+  left: initial !important;
+
+  .dropdown-item-li {
+    list-style-type: none;
+  }
+
+  .dropdown-item {
+    text-decoration: none;
+  }
+}

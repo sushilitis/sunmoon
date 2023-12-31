@@ -1,0 +1,7 @@
+1. npm init
+2. npm i express
+3. npm i mongoose
+4. Create index.js file
+5. Create models
+6. Create routes
+7. npm i --save express-validator
