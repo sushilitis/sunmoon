@@ -34,12 +34,6 @@ const server = app.listen(port, () => {
     console.log(`iChat backend listening on port ${port}`);
 });
 
-let URL;
-if (process.env.REACT_APP_NODE_ENV === 'production') {
-    URL = "https://ichat-rxvq.onrender.com";
-} else {
-    URL = "http://localhost:3000";
-}
 const io = require("socket.io")(server, {
     cors: {
         origin: String(process.env.NODE_APP_HOST_URL),
